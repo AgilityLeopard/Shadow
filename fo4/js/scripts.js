@@ -213,7 +213,7 @@ $(function () {
         //if (remaining === 0)
         //    return;
 
-        if (value < 10) {
+        if (value < 22) {
             $input.val(value + 1);
         }
 
