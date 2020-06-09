@@ -1544,269 +1544,269 @@
             }
         ]
     },
-    {
-        special: 'lu',
-        perks: [
-            {
-                rank: 1,
-                name: 'Fortune Finder',
-                img: 'fortune-finder.png',
-                ranks: 4,
-                ranked: [
-                    {
-                        rank: 1,
-                        level: 0,
-                        description: 'You find more bottle caps in containers.'
-                    },
-                    {
-                        rank: 2,
-                        level: 5,
-                        description: 'You find even more bottle caps in containers.'
-                    },
-                    {
-                        rank: 3,
-                        level: 25,
-                        description: 'You find even more bottle caps in containers.'
-                    },
-                    {
-                        rank: 4,
-                        level: 40,
-                        description: 'You find even more bottle caps in containers, and there is a chance of enemies exploding into a shower of caps when you kill them.'
-                    }
-                ]
-            },
-            {
-                rank: 2,
-                name: 'Scrounger',
-                img: 'scrounger.png',
-                ranks: 4,
-                ranked: [
-                    {
-                        rank: 1,
-                        level: 0,
-                        description: 'You find more ammunition in containers.'
-                    },
-                    {
-                        rank: 2,
-                        level: 7,
-                        description: 'You find even more ammunition in containers.'
-                    },
-                    {
-                        rank: 3,
-                        level: 24,
-                        description: 'You find even more ammunition in containers.'
-                    },
-                    {
-                        rank: 4,
-                        level: 37,
-                        description: 'You find even more ammunition in containers.'
-                    }
-                ]
-            },
-            {
-                rank: 3,
-                name: 'Bloody Mess',
-                img: 'bloody-mess.png',
-                ranks: 4,
-                ranked: [
-                    {
-                        rank: 1,
-                        level: 0,
-                        description: '+5% bonus damage means enemies will sometimes explode into a gory red paste. Watch out for flying eyeballs!'
-                    },
-                    {
-                        rank: 2,
-                        level: 9,
-                        description: 'You now inflict +10% damage in combat.'
-                    },
-                    {
-                        rank: 3,
-                        level: 31,
-                        description: 'You now inflict +15% damage in combat.'
-                    },
-                    {
-                        rank: 4,
-                        level: 47,
-                        description: 'When an enemy explodes, nearby enemies may suffer the same fate.'
-                    }
-                ]
-            },
-            {
-                rank: 4,
-                name: 'Mysterious Stranger',
-                img: 'mysterious-stranger.png',
-                ranks: 4,
-                ranked: [
-                    {
-                        rank: 1,
-                        level: 0,
-                        description: 'Who is he? Why does he help? Who cares! The Mysterious Stranger will appear occasionally in V.A.T.S. to lend a hand, with deadly efficiency...'
-                    },
-                    {
-                        rank: 2,
-                        level: 22,
-                        description: 'The Mysterious Stranger appears more often in V.A.T.S.'
-                    },
-                    {
-                        rank: 3,
-                        level: 41,
-                        description: 'The Mysterious Stranger appears more often in V.A.T.S. When he kills an opponent, there is a chance your Critical meter gets filled.'
-                    },
-                    {
-                        rank: 4,
-                        level: 49,
-                        description: 'The Mysterious Stranger appears more often in V.A.T.S. When he kills an opponent, there is a high chance your Critical meter gets filled. (Nuka-World DLC)'
-                    }
-                ]
-            },
-            {
-                rank: 5,
-                name: 'Idiot Savant',
-                img: 'idiot-savant.png',
-                ranks: 3,
-                ranked: [
-                    {
-                        rank: 1,
-                        level: 0,
-                        description: 'You\'re not stupid! Just... different. Randomly receive 3x XP from any action, and the lower your Intelligence, the greater the chance.'
-                    },
-                    {
-                        rank: 2,
-                        level: 11,
-                        description: 'You now randomly receive 5x XP from any action. The lower your Intelligence, the greater the chance.'
-                    },
-                    {
-                        rank: 3,
-                        level: 34,
-                        description: 'Randomly receiving bonus XP from any action may trigger 3x XP for all kills for a short period of time. The lower your Intelligence, the greater the chance.'
-                    }
-                ]
-            },
-            {
-                rank: 6,
-                name: 'Better Criticals',
-                img: 'better-criticals.png',
-                ranks: 3,
-                ranked: [
-                    {
-                        rank: 1,
-                        level: 0,
-                        description: 'Advanced training for enhanced combat effectiveness! Criticals do 50% more extra damage.'
-                    },
-                    {
-                        rank: 2,
-                        level: 15,
-                        description: 'Your criticals now do twice as much extra damage.'
-                    },
-                    {
-                        rank: 3,
-                        level: 40,
-                        description: 'Your criticals now do 2.5x as much extra damage.'
-                    }
-                ]
-            },
-            {
-                rank: 7,
-                name: 'Critical Banker',
-                img: 'critical-banker.png',
-                ranks: 4,
-                ranked: [
-                    {
-                        rank: 1,
-                        level: 0,
-                        description: 'You\'re a patient battlefield tactician, and can save a Critical Hit, to be used in V.A.T.S. when you need it most.'
-                    },
-                    {
-                        rank: 2,
-                        level: 17,
-                        description: 'You can now save 2 Critical Hits, to be used in V.A.T.S. when you need them the most.'
-                    },
-                    {
-                        rank: 3,
-                        level: 43,
-                        description: 'You can now save 3 Critical Hits, to be used in V.A.T.S. when you need them the most. Banking a Critical has a chance to save an additional Critical.'
-                    },
-                    {
-                        rank: 4,
-                        level: 50,
-                        description: 'You can now save 4 Critical Hits, to be used in V.A.T.S. when you need them the most. (Far Harbor DLC)'
-                    }
-                ]
-            },
-            {
-                rank: 8,
-                name: 'Grim Reaper\'s Sprint',
-                img: 'grim-reapers-sprint.png',
-                ranks: 3,
-                ranked: [
-                    {
-                        rank: 1,
-                        level: 0,
-                        description: 'Death becomes you! Any kill in V.A.T.S. has a 15% chance to restore all Action Points.'
-                    },
-                    {
-                        rank: 2,
-                        level: 19,
-                        description: 'Any kill in V.A.T.S. now has a 25% chance to restore all Action Points.'
-                    },
-                    {
-                        rank: 3,
-                        level: 46,
-                        description: 'Any kill in V.A.T.S. has a 35% chance to restore all Action Points and refill your Critical meter.'
-                    }
-                ]
-            },
-            {
-                rank: 9,
-                name: 'Four Leaf Clover',
-                img: 'four-leaf-clover.png',
-                ranks: 4,
-                ranked: [
-                    {
-                        rank: 1,
-                        level: 0,
-                        description: 'Feeling Lucky? You should! Each hit in V.A.T.S. has a chance of filling your Critical meter.'
-                    },
-                    {
-                        rank: 2,
-                        level: 13,
-                        description: 'Each hit in V.A.T.S. now has an even better chance of filling your Critical meter.'
-                    },
-                    {
-                        rank: 3,
-                        level: 32,
-                        description: 'Each hit in V.A.T.S. now has a very good chance of filling your Critical meter.'
-                    },
-                    {
-                        rank: 4,
-                        level: 48,
-                        description: 'Each hit in V.A.T.S. now has an excellent chance of filling your Critical meter.'
-                    }
-                ]
-            },
-            {
-                rank: 10,
-                name: 'Ricochet',
-                img: 'ricochet.png',
-                ranks: 3,
-                ranked: [
-                    {
-                        rank: 1,
-                        level: 0,
-                        description: 'What goes around comes around! Any enemy\'s ranged attacks will sometimes ricochet back and instantly kill them. The closer you are to death, the higher the chance.'
-                    },
-                    {
-                        rank: 2,
-                        level: 29,
-                        description: 'There\'s an increased chance that an enemy\'s shot will ricochet back and kill them.'
-                    },
-                    {
-                        rank: 3,
-                        level: 50,
-                        description: 'When an enemy\'s shot ricochets back and kills them, there is a chance your Critical meter gets filled.'
-                    }
-                ]
-            }
+//     {
+//         special: 'lu',
+//         perks: [
+//             {
+//                 rank: 1,
+//                 name: 'Fortune Finder',
+//                 img: 'fortune-finder.png',
+//                 ranks: 4,
+//                 ranked: [
+//                     {
+//                         rank: 1,
+//                         level: 0,
+//                         description: 'You find more bottle caps in containers.'
+//                     },
+//                     {
+//                         rank: 2,
+//                         level: 5,
+//                         description: 'You find even more bottle caps in containers.'
+//                     },
+//                     {
+//                         rank: 3,
+//                         level: 25,
+//                         description: 'You find even more bottle caps in containers.'
+//                     },
+//                     {
+//                         rank: 4,
+//                         level: 40,
+//                         description: 'You find even more bottle caps in containers, and there is a chance of enemies exploding into a shower of caps when you kill them.'
+//                     }
+//                 ]
+//             },
+//             {
+//                 rank: 2,
+//                 name: 'Scrounger',
+//                 img: 'scrounger.png',
+//                 ranks: 4,
+//                 ranked: [
+//                     {
+//                         rank: 1,
+//                         level: 0,
+//                         description: 'You find more ammunition in containers.'
+//                     },
+//                     {
+//                         rank: 2,
+//                         level: 7,
+//                         description: 'You find even more ammunition in containers.'
+//                     },
+//                     {
+//                         rank: 3,
+//                         level: 24,
+//                         description: 'You find even more ammunition in containers.'
+//                     },
+//                     {
+//                         rank: 4,
+//                         level: 37,
+//                         description: 'You find even more ammunition in containers.'
+//                     }
+//                 ]
+//             },
+//             {
+//                 rank: 3,
+//                 name: 'Bloody Mess',
+//                 img: 'bloody-mess.png',
+//                 ranks: 4,
+//                 ranked: [
+//                     {
+//                         rank: 1,
+//                         level: 0,
+//                         description: '+5% bonus damage means enemies will sometimes explode into a gory red paste. Watch out for flying eyeballs!'
+//                     },
+//                     {
+//                         rank: 2,
+//                         level: 9,
+//                         description: 'You now inflict +10% damage in combat.'
+//                     },
+//                     {
+//                         rank: 3,
+//                         level: 31,
+//                         description: 'You now inflict +15% damage in combat.'
+//                     },
+//                     {
+//                         rank: 4,
+//                         level: 47,
+//                         description: 'When an enemy explodes, nearby enemies may suffer the same fate.'
+//                     }
+//                 ]
+//             },
+//             {
+//                 rank: 4,
+//                 name: 'Mysterious Stranger',
+//                 img: 'mysterious-stranger.png',
+//                 ranks: 4,
+//                 ranked: [
+//                     {
+//                         rank: 1,
+//                         level: 0,
+//                         description: 'Who is he? Why does he help? Who cares! The Mysterious Stranger will appear occasionally in V.A.T.S. to lend a hand, with deadly efficiency...'
+//                     },
+//                     {
+//                         rank: 2,
+//                         level: 22,
+//                         description: 'The Mysterious Stranger appears more often in V.A.T.S.'
+//                     },
+//                     {
+//                         rank: 3,
+//                         level: 41,
+//                         description: 'The Mysterious Stranger appears more often in V.A.T.S. When he kills an opponent, there is a chance your Critical meter gets filled.'
+//                     },
+//                     {
+//                         rank: 4,
+//                         level: 49,
+//                         description: 'The Mysterious Stranger appears more often in V.A.T.S. When he kills an opponent, there is a high chance your Critical meter gets filled. (Nuka-World DLC)'
+//                     }
+//                 ]
+//             },
+//             {
+//                 rank: 5,
+//                 name: 'Idiot Savant',
+//                 img: 'idiot-savant.png',
+//                 ranks: 3,
+//                 ranked: [
+//                     {
+//                         rank: 1,
+//                         level: 0,
+//                         description: 'You\'re not stupid! Just... different. Randomly receive 3x XP from any action, and the lower your Intelligence, the greater the chance.'
+//                     },
+//                     {
+//                         rank: 2,
+//                         level: 11,
+//                         description: 'You now randomly receive 5x XP from any action. The lower your Intelligence, the greater the chance.'
+//                     },
+//                     {
+//                         rank: 3,
+//                         level: 34,
+//                         description: 'Randomly receiving bonus XP from any action may trigger 3x XP for all kills for a short period of time. The lower your Intelligence, the greater the chance.'
+//                     }
+//                 ]
+//             },
+//             {
+//                 rank: 6,
+//                 name: 'Better Criticals',
+//                 img: 'better-criticals.png',
+//                 ranks: 3,
+//                 ranked: [
+//                     {
+//                         rank: 1,
+//                         level: 0,
+//                         description: 'Advanced training for enhanced combat effectiveness! Criticals do 50% more extra damage.'
+//                     },
+//                     {
+//                         rank: 2,
+//                         level: 15,
+//                         description: 'Your criticals now do twice as much extra damage.'
+//                     },
+//                     {
+//                         rank: 3,
+//                         level: 40,
+//                         description: 'Your criticals now do 2.5x as much extra damage.'
+//                     }
+//                 ]
+//             },
+//             {
+//                 rank: 7,
+//                 name: 'Critical Banker',
+//                 img: 'critical-banker.png',
+//                 ranks: 4,
+//                 ranked: [
+//                     {
+//                         rank: 1,
+//                         level: 0,
+//                         description: 'You\'re a patient battlefield tactician, and can save a Critical Hit, to be used in V.A.T.S. when you need it most.'
+//                     },
+//                     {
+//                         rank: 2,
+//                         level: 17,
+//                         description: 'You can now save 2 Critical Hits, to be used in V.A.T.S. when you need them the most.'
+//                     },
+//                     {
+//                         rank: 3,
+//                         level: 43,
+//                         description: 'You can now save 3 Critical Hits, to be used in V.A.T.S. when you need them the most. Banking a Critical has a chance to save an additional Critical.'
+//                     },
+//                     {
+//                         rank: 4,
+//                         level: 50,
+//                         description: 'You can now save 4 Critical Hits, to be used in V.A.T.S. when you need them the most. (Far Harbor DLC)'
+//                     }
+//                 ]
+//             },
+//             {
+//                 rank: 8,
+//                 name: 'Grim Reaper\'s Sprint',
+//                 img: 'grim-reapers-sprint.png',
+//                 ranks: 3,
+//                 ranked: [
+//                     {
+//                         rank: 1,
+//                         level: 0,
+//                         description: 'Death becomes you! Any kill in V.A.T.S. has a 15% chance to restore all Action Points.'
+//                     },
+//                     {
+//                         rank: 2,
+//                         level: 19,
+//                         description: 'Any kill in V.A.T.S. now has a 25% chance to restore all Action Points.'
+//                     },
+//                     {
+//                         rank: 3,
+//                         level: 46,
+//                         description: 'Any kill in V.A.T.S. has a 35% chance to restore all Action Points and refill your Critical meter.'
+//                     }
+//                 ]
+//             },
+//             {
+//                 rank: 9,
+//                 name: 'Four Leaf Clover',
+//                 img: 'four-leaf-clover.png',
+//                 ranks: 4,
+//                 ranked: [
+//                     {
+//                         rank: 1,
+//                         level: 0,
+//                         description: 'Feeling Lucky? You should! Each hit in V.A.T.S. has a chance of filling your Critical meter.'
+//                     },
+//                     {
+//                         rank: 2,
+//                         level: 13,
+//                         description: 'Each hit in V.A.T.S. now has an even better chance of filling your Critical meter.'
+//                     },
+//                     {
+//                         rank: 3,
+//                         level: 32,
+//                         description: 'Each hit in V.A.T.S. now has a very good chance of filling your Critical meter.'
+//                     },
+//                     {
+//                         rank: 4,
+//                         level: 48,
+//                         description: 'Each hit in V.A.T.S. now has an excellent chance of filling your Critical meter.'
+//                     }
+//                 ]
+//             },
+//             {
+//                 rank: 10,
+//                 name: 'Ricochet',
+//                 img: 'ricochet.png',
+//                 ranks: 3,
+//                 ranked: [
+//                     {
+//                         rank: 1,
+//                         level: 0,
+//                         description: 'What goes around comes around! Any enemy\'s ranged attacks will sometimes ricochet back and instantly kill them. The closer you are to death, the higher the chance.'
+//                     },
+//                     {
+//                         rank: 2,
+//                         level: 29,
+//                         description: 'There\'s an increased chance that an enemy\'s shot will ricochet back and kill them.'
+//                     },
+//                     {
+//                         rank: 3,
+//                         level: 50,
+//                         description: 'When an enemy\'s shot ricochets back and kills them, there is a chance your Critical meter gets filled.'
+//                     }
+//                 ]
+//             }
         ]
     }
 ];
