@@ -1,4 +1,4 @@
-var totalPoints = 35;
+var totalPoints = 27;
 // var $pointsLeft = 27;
 
 var renderPerks = function () {
@@ -138,9 +138,14 @@ var calculatePoints = function (sdec) {
 }
 
 var getAllocatedPoints = function () {
-    return $('[data-special] input').map(function () {
+    var prev = 0;
+    
+    for (var i = 0; i < 6; ++i){
+        
+        var curr = $('[data-special] input').map(function () {
         return parseInt($(this).val());
-    }).get().reduce(function (prev, curr) {
+    }).get()[i];
+        
         switch(curr) {
         case 8:  // if (x === 'value1')
             return prev + curr*0;
@@ -169,8 +174,10 @@ var getAllocatedPoints = function () {
         default:
          return prev - 1;
          break;
+                
 }   
-    });
+    }
+    return prev;
 }
 
 var $pointsLeft = $('.points-left');
