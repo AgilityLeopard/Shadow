@@ -144,23 +144,23 @@ var getAllocatedPoints = function () {
         
         switch(curr) {
         case "8":  // if (x === 'value1')
-            return prev + curr*0;
+            prev += curr*0;
         case "9":  // if (x === 'value1')
-            return prev + 1;
+            prev += + 1;
         case "10":  // if (x === 'value1')
-            return prev + 2;
+            prev += + 2;
         case "11":  // if (x === 'value1')
-            return prev + 3;
+            prev += + 3;
         case "12":  // if (x === 'value1')
-            return prev + 4;
+            prev += + 4;
         case "13":  // if (x === 'value1')
-            return prev + 5;
+            prev += + 5;
         case "14":  // if (x === 'value1')
-            return prev + 7;
+            prev += + 7;
         case "15":  // if (x === 'value1')
-            return prev + 9;
+            prev += + 9;
         default:
-         return prev - 1;      
+         prev += - 1;      
     }
    }  
 
@@ -338,3 +338,6 @@ $(function () {
         renderAll();
     });
 });
+
+
+
