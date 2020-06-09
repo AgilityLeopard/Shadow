@@ -5,7 +5,7 @@
             {
                 rank: 1,
                 name: 'Iron Fist',
-                img: 'iron-fist.png',
+//                 img: 'iron-fist.png',
                 ranks: 5,
                 ranked: [
                     {
