@@ -142,9 +142,7 @@ var getAllocatedPoints = function () {
     
     for (var i = 0; i < 6; ++i){
         
-        var curr = $('[data-special] input').map(function () {
-        return parseInt($(this).val());
-    }).get()[i];
+        var curr = $('[data-special] input')[i].value;
         
         switch(curr) {
         case 8:  // if (x === 'value1')
@@ -173,10 +171,10 @@ var getAllocatedPoints = function () {
             break;
         default:
          return prev - 1;
-         break;
-                
-}   
+         break;       
+        }   
     }
+    
     return prev;
 }
 
