@@ -120,14 +120,14 @@ var renderRequiredLevel = function () {
 
 var renderAll = function () {
     renderPerks();
-//     calculatePoints();
+    calculatePoints();
     renderRequiredLevel();
     renderSummary();
     window.location.hash = '#' + getJSON();
 }
 
 var calculatePoints = function (sdec) {
-    var remaining = totalPoints - getAllocatedPoints() - sdec;
+    var remaining = totalPoints - getAllocatedPoints();
     //if (includeBobbleheads()) {
     //    remaining += 7;
     //}
@@ -141,7 +141,35 @@ var getAllocatedPoints = function () {
     return $('[data-special] input').map(function () {
         return parseInt($(this).val());
     }).get().reduce(function (prev, curr) {
-        return prev + curr;
+        switch(curr) {
+        case 8:  // if (x === 'value1')
+            return prev + curr*0;
+            break;
+        case 9:  // if (x === 'value1')
+            return prev + 1;
+            break;
+        case 10:  // if (x === 'value1')
+            return prev + 2;
+            break;
+        case 11:  // if (x === 'value1')
+            return prev + 3;
+            break;
+        case 12:  // if (x === 'value1')
+            return prev + 4;
+            break;
+        case 13:  // if (x === 'value1')
+            return prev + 5;
+            break;
+        case 14:  // if (x === 'value1')
+            return prev + 7;
+            break;
+        case 15:  // if (x === 'value1')
+            return prev + 9;
+            break;
+        default:
+         return prev - 1;
+         break;
+}   
     });
 }
 
@@ -213,29 +241,29 @@ $(function () {
 
         //if (remaining === 0)
         //    return;
-    switch(value) {
-        case 9:  // if (x === 'value1')
-            calculatePoints(0);
-            break;
-        case 10:  // if (x === 'value1')
-            calculatePoints(0);
-            break;
-        case 11:  // if (x === 'value1')
-            calculatePoints(0);
-            break;
-        case 12:  // if (x === 'value1')
-            calculatePoints(0);
-            break;
-        case 13:  // if (x === 'value1')
-            calculatePoints(1);
-            break;
-        case 14:  // if (x === 'value1')
-            calculatePoints(1);
-            break;
-        default:
-            calculatePoints(0);
-            break;
-}    
+//     switch(value) {
+//         case 9:  // if (x === 'value1')
+//             calculatePoints(0);
+//             break;
+//         case 10:  // if (x === 'value1')
+//             calculatePoints(0);
+//             break;
+//         case 11:  // if (x === 'value1')
+//             calculatePoints(0);
+//             break;
+//         case 12:  // if (x === 'value1')
+//             calculatePoints(0);
+//             break;
+//         case 13:  // if (x === 'value1')
+//             calculatePoints(1);
+//             break;
+//         case 14:  // if (x === 'value1')
+//             calculatePoints(1);
+//             break;
+//         default:
+//             calculatePoints(0);
+//             break;
+// }    
 
         
         if (value < 15) {
@@ -251,32 +279,32 @@ $(function () {
             value = parseInt($input.val()),
             special = $li.data('special');
         
-    switch(value) {
-        case 9:  // if (x === 'value1')
-            calculatePoints(0);
-            break;
-        case 10:  // if (x === 'value1')
-            calculatePoints(0);
-            break;
-        case 11:  // if (x === 'value1')
-            calculatePoints(0);
-            break;
-        case 12:  // if (x === 'value1')
-            calculatePoints(0);
-            break;
-        case 13:  // if (x === 'value1')
-            calculatePoints(0);
-            break;
-        case 14:  // if (x === 'value1')
-            calculatePoints(-1);
-            break;
-        case 15:  // if (x === 'value1')
-            calculatePoints(-1);
-            break;
-        default:
-            calculatePoints(0);
-         break;
-}   
+//     switch(value) {
+//         case 9:  // if (x === 'value1')
+//             calculatePoints(0);
+//             break;
+//         case 10:  // if (x === 'value1')
+//             calculatePoints(0);
+//             break;
+//         case 11:  // if (x === 'value1')
+//             calculatePoints(0);
+//             break;
+//         case 12:  // if (x === 'value1')
+//             calculatePoints(0);
+//             break;
+//         case 13:  // if (x === 'value1')
+//             calculatePoints(0);
+//             break;
+//         case 14:  // if (x === 'value1')
+//             calculatePoints(-1);
+//             break;
+//         case 15:  // if (x === 'value1')
+//             calculatePoints(-1);
+//             break;
+//         default:
+//             calculatePoints(0);
+//          break;
+// }   
         if (value > 1) {
             $input.val(value - 1);
 
