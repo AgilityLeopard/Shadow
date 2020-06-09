@@ -215,22 +215,22 @@ $(function () {
         //    return;
     switch(value) {
         case 9:  // if (x === 'value1')
-            calculatePoints(1);
+            calculatePoints(0);
             break;
         case 10:  // if (x === 'value1')
-            calculatePoints(2);
+            calculatePoints(0);
             break;
         case 11:  // if (x === 'value1')
-            calculatePoints(3);
+            calculatePoints(0);
             break;
         case 12:  // if (x === 'value1')
-            calculatePoints(4);
+            calculatePoints(0);
             break;
         case 13:  // if (x === 'value1')
-            calculatePoints(6);
+            calculatePoints(1);
             break;
         case 14:  // if (x === 'value1')
-            calculatePoints(8);
+            calculatePoints(1);
             break;
         default:
             calculatePoints(0);
@@ -253,22 +253,22 @@ $(function () {
         
     switch(value) {
         case 9:  // if (x === 'value1')
-            calculatePoints(-8);
+            calculatePoints(0);
             break;
         case 10:  // if (x === 'value1')
-            calculatePoints(-7);
+            calculatePoints(0);
             break;
         case 11:  // if (x === 'value1')
-            calculatePoints(-6);
+            calculatePoints(0);
             break;
         case 12:  // if (x === 'value1')
-            calculatePoints(-5);
+            calculatePoints(0);
             break;
         case 13:  // if (x === 'value1')
-            calculatePoints(-4);
+            calculatePoints(0);
             break;
-        case 13:  // if (x === 'value1')
-            calculatePoints(-3);
+        case 14:  // if (x === 'value1')
+            calculatePoints(-1);
             break;
         case 15:  // if (x === 'value1')
             calculatePoints(-1);
