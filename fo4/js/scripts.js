@@ -139,7 +139,7 @@ var calculatePoints = function (sdec) {
 
 var getAllocatedPoints = function () {
     var prev = 0;
-   for (var i = 0; j < 6; ++i) {
+   for (var i = 0; i < 6; ++i) {
         var curr = $('[data-special] input')[i].value;
         
         switch(curr) {
