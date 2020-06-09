@@ -233,11 +233,11 @@ $(function () {
             break;
         default:
             calculatePoints(0);
-         break;
+            break;
 }    
 
         
-        if (value < 22) {
+        if (value < 15) {
             $input.val(value + 1);
         }
 
