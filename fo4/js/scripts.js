@@ -119,14 +119,14 @@ var renderRequiredLevel = function () {
 
 var renderAll = function () {
     renderPerks();
-    calculatePoints();
+//     calculatePoints();
     renderRequiredLevel();
     renderSummary();
     window.location.hash = '#' + getJSON();
 }
 
-var calculatePoints = function () {
-    var remaining = totalPoints - getAllocatedPoints();
+var calculatePoints = function (sdec) {
+    var remaining = totalPoints - getAllocatedPoints() - sdec;
     //if (includeBobbleheads()) {
     //    remaining += 7;
     //}
@@ -212,7 +212,31 @@ $(function () {
 
         //if (remaining === 0)
         //    return;
+    switch(value) {
+        case 9:  // if (x === 'value1')
+            calculatePoints(1);
+            break;
+        case 10:  // if (x === 'value1')
+            calculatePoints(2);
+            break;
+        case 11:  // if (x === 'value1')
+            calculatePoints(3);
+            break;
+        case 12:  // if (x === 'value1')
+            calculatePoints(4);
+            break;
+        case 13:  // if (x === 'value1')
+            calculatePoints(6);
+            break;
+        case 14:  // if (x === 'value1')
+            calculatePoints(8);
+            break;
+        default:
+            calculatePoints(0);
+         break;
+}    
 
+        
         if (value < 22) {
             $input.val(value + 1);
         }
@@ -225,7 +249,33 @@ $(function () {
             $input = $li.find('input'),
             value = parseInt($input.val()),
             special = $li.data('special');
-
+        
+    switch(value) {
+        case 9:  // if (x === 'value1')
+            calculatePoints(-8);
+            break;
+        case 10:  // if (x === 'value1')
+            calculatePoints(-7);
+            break;
+        case 11:  // if (x === 'value1')
+            calculatePoints(-6);
+            break;
+        case 12:  // if (x === 'value1')
+            calculatePoints(-5);
+            break;
+        case 13:  // if (x === 'value1')
+            calculatePoints(-4);
+            break;
+        case 13:  // if (x === 'value1')
+            calculatePoints(-3);
+            break;
+        case 15:  // if (x === 'value1')
+            calculatePoints(-1);
+            break;
+        default:
+            calculatePoints(0);
+         break;
+}   
         if (value > 1) {
             $input.val(value - 1);
 
@@ -238,6 +288,7 @@ $(function () {
             }
         }
 
+        
         renderAll();
     });
 
