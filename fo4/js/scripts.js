@@ -1,4 +1,4 @@
-var totalPoints = 75;
+var totalPoints = 68;
 // var $pointsLeft = 27;
 
 var renderPerks = function () {
