@@ -139,10 +139,8 @@ var calculatePoints = function (sdec) {
 
 var getAllocatedPoints = function () {
     var prev = 0;
-    
-    for (var i = 0; i < 6; ++i){
-        
-        var curr = $('[data-special] input')[i].value;
+   
+        var curr = $('[data-special] input')[0].value;
         
         switch(curr) {
         case "8":  // if (x === 'value1')
@@ -171,9 +169,169 @@ var getAllocatedPoints = function () {
             break;
         default:
          return prev - 1;
-         break;       
-        }   
+         break;        
     }
+    
+            var curr = $('[data-special] input')[1].value;
+        
+        switch(curr) {
+        case "8":  // if (x === 'value1')
+            return prev + curr*0;
+            break;
+        case "9":  // if (x === 'value1')
+            return prev + 1;
+            break;
+        case "10":  // if (x === 'value1')
+            return prev + 2;
+            break;
+        case "11":  // if (x === 'value1')
+            return prev + 3;
+            break;
+        case "12":  // if (x === 'value1')
+            return prev + 4;
+            break;
+        case "13":  // if (x === 'value1')
+            return prev + 5;
+            break;
+        case "14":  // if (x === 'value1')
+            return prev + 7;
+            break;
+        case "15":  // if (x === 'value1')
+            return prev + 9;
+            break;
+        default:
+         return prev - 1;
+         break;        
+    }
+    
+            var curr = $('[data-special] input')[2].value;
+        
+        switch(curr) {
+        case "8":  // if (x === 'value1')
+            return prev + curr*0;
+            break;
+        case "9":  // if (x === 'value1')
+            return prev + 1;
+            break;
+        case "10":  // if (x === 'value1')
+            return prev + 2;
+            break;
+        case "11":  // if (x === 'value1')
+            return prev + 3;
+            break;
+        case "12":  // if (x === 'value1')
+            return prev + 4;
+            break;
+        case "13":  // if (x === 'value1')
+            return prev + 5;
+            break;
+        case "14":  // if (x === 'value1')
+            return prev + 7;
+            break;
+        case "15":  // if (x === 'value1')
+            return prev + 9;
+            break;
+        default:
+         return prev - 1;
+         break;        
+    }
+    
+            var curr = $('[data-special] input')[3].value;
+        
+        switch(curr) {
+        case "8":  // if (x === 'value1')
+            return prev + curr*0;
+            break;
+        case "9":  // if (x === 'value1')
+            return prev + 1;
+            break;
+        case "10":  // if (x === 'value1')
+            return prev + 2;
+            break;
+        case "11":  // if (x === 'value1')
+            return prev + 3;
+            break;
+        case "12":  // if (x === 'value1')
+            return prev + 4;
+            break;
+        case "13":  // if (x === 'value1')
+            return prev + 5;
+            break;
+        case "14":  // if (x === 'value1')
+            return prev + 7;
+            break;
+        case "15":  // if (x === 'value1')
+            return prev + 9;
+            break;
+        default:
+         return prev - 1;
+         break;        
+    }
+    
+            var curr = $('[data-special] input')[4].value;
+        
+        switch(curr) {
+        case "8":  // if (x === 'value1')
+            return prev + curr*0;
+            break;
+        case "9":  // if (x === 'value1')
+            return prev + 1;
+            break;
+        case "10":  // if (x === 'value1')
+            return prev + 2;
+            break;
+        case "11":  // if (x === 'value1')
+            return prev + 3;
+            break;
+        case "12":  // if (x === 'value1')
+            return prev + 4;
+            break;
+        case "13":  // if (x === 'value1')
+            return prev + 5;
+            break;
+        case "14":  // if (x === 'value1')
+            return prev + 7;
+            break;
+        case "15":  // if (x === 'value1')
+            return prev + 9;
+            break;
+        default:
+         return prev - 1;
+         break;        
+    }
+    
+            var curr = $('[data-special] input')[5].value;
+        
+        switch(curr) {
+        case "8":  // if (x === 'value1')
+            return prev + curr*0;
+            break;
+        case "9":  // if (x === 'value1')
+            return prev + 1;
+            break;
+        case "10":  // if (x === 'value1')
+            return prev + 2;
+            break;
+        case "11":  // if (x === 'value1')
+            return prev + 3;
+            break;
+        case "12":  // if (x === 'value1')
+            return prev + 4;
+            break;
+        case "13":  // if (x === 'value1')
+            return prev + 5;
+            break;
+        case "14":  // if (x === 'value1')
+            return prev + 7;
+            break;
+        case "15":  // if (x === 'value1')
+            return prev + 9;
+            break;
+        default:
+         return prev - 1;
+         break;        
+    }
+    
     
     return prev;
 }
