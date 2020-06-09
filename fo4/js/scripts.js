@@ -1,5 +1,5 @@
 var totalPoints = 75;
-var $pointsLeft = 27;
+// var $pointsLeft = 27;
 
 var renderPerks = function () {
     var html = '',
@@ -145,7 +145,7 @@ var getAllocatedPoints = function () {
     });
 }
 
-// var $pointsLeft = $('.points-left');
+var $pointsLeft = $('.points-left');
         //$includeBobbleheads = $('.include-bobbleheads');
 
 //var includeBobbleheads = function () {
